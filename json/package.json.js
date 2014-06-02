@@ -30,6 +30,7 @@ module.exports = function dataForPackageJSON (scope) {
 		dependencies: {
 			'sails'      : sailsVersionDependency,
 			'sails-disk' : getDependencyVersion(sailsPkg, 'sails-disk'),
+			'sails-socketadapter-memory' : getDependencyVersion(sailsPkg, 'sails-socketadapter-memory'),
 			'rc'         : getDependencyVersion(sailsPkg, 'rc'),
 			'include-all': getDependencyVersion(sailsPkg, 'include-all'),
 			'ejs'        : getDependencyVersion(sailsPkg, 'ejs'),
